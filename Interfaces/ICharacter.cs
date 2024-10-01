@@ -4,6 +4,8 @@
     {
         void Attack(ICharacter target);
         void Move();
+
+        String ToString();
         string Name { get; set; }
     }
 

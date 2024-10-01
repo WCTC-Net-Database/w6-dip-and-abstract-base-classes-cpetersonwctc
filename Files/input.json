@@ -47,5 +47,14 @@
     "Level": 2,
     "HP": 8,
     "Treasure": null
+  },
+  {
+    "$type": "W6_assignment_template.Models.Player",
+    "Name": "Cool Guy",
+    "Type": "Mage",
+    "Level": 3,
+    "HP": 10,
+    "Equipment": "robe|hat|potion",
+    "Gold": 34
   }
 ]

@@ -44,6 +44,11 @@ namespace W6_assignment_template.Models
             Console.WriteLine($"{Name} moves.");
         }
 
+        override
+        public String ToString()
+        {
+            return $"{Name}, is a {Type} that is level {Level} and has {HP} health.";
+        }
         // Abstract method for unique behavior to be implemented by derived classes
         public abstract void UniqueBehavior();
     }

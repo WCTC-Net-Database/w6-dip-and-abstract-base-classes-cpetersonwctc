@@ -10,7 +10,7 @@ namespace W6_assignment_template
         {
             var serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);
-
+             
             var serviceProvider = serviceCollection.BuildServiceProvider();
             var gameEngine = serviceProvider.GetService<GameEngine>();
 
